@@ -1,0 +1,212 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone 14 Pro",
+      "image": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Mobile Phones",
+      "brand": "Apple",
+      "detail": "Apple iPhone 14 Pro with A16 Bionic chip, 48MP camera system, and Dynamic Island. Features Pro camera system with 48MP main camera.",
+      "price": 1199,
+      "originalPrice": 1299,
+      "discount": 8,
+      "rating": 4.8,
+      "stock": 25,
+      "tags": ["5G", "iOS", "Premium"]
+    },
+    {
+      "id": 2,
+      "title": "MacBook Pro 16\"",
+      "image": "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Laptops",
+      "brand": "Apple",
+      "detail": "MacBook Pro 16-inch with M2 Pro chip delivers exceptional performance and battery life. Perfect for professionals and creatives.",
+      "price": 2499,
+      "originalPrice": 2699,
+      "discount": 7,
+      "rating": 4.9,
+      "stock": 15,
+      "tags": ["M2 Pro", "Retina", "Professional"]
+    },
+    {
+      "id": 3,
+      "title": "Men's Casual Shirt",
+      "image": "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Men's Clothing",
+      "brand": "Urban Style",
+      "detail": "Premium cotton casual shirt with modern fit. Perfect for everyday wear with comfort and style combined.",
+      "price": 49,
+      "originalPrice": 69,
+      "discount": 29,
+      "rating": 4.3,
+      "stock": 50,
+      "tags": ["Cotton", "Casual", "Comfortable"]
+    },
+    {
+      "id": 4,
+      "title": "Women's Summer Dress",
+      "image": "https://images.pexels.com/photos/1021693/pexels-photo-1021693.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/1021693/pexels-photo-1021693.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Women's Clothing",
+      "brand": "Elegant Wear",
+      "detail": "Beautiful summer dress made from breathable fabric. Elegant design perfect for casual and semi-formal occasions.",
+      "price": 79,
+      "originalPrice": 99,
+      "discount": 20,
+      "rating": 4.6,
+      "stock": 35,
+      "tags": ["Summer", "Elegant", "Breathable"]
+    },
+    {
+      "id": 5,
+      "title": "Kids Playful T-Shirt",
+      "image": "https://images.pexels.com/photos/1620760/pexels-photo-1620760.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/1620760/pexels-photo-1620760.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Kids & Baby Clothing",
+      "brand": "Little Ones",
+      "detail": "Soft and comfortable t-shirt for kids with fun designs. Made from organic cotton that's gentle on sensitive skin.",
+      "price": 25,
+      "originalPrice": 35,
+      "discount": 29,
+      "rating": 4.5,
+      "stock": 60,
+      "tags": ["Organic", "Comfortable", "Kids"]
+    },
+    {
+      "id": 6,
+      "title": "Non-Stick Cookware Set",
+      "image": "https://images.pexels.com/photos/4552174/pexels-photo-4552174.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/4552174/pexels-photo-4552174.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Home & Kitchen",
+      "brand": "Chef's Choice",
+      "detail": "Professional-grade non-stick cookware set including pans, pots, and accessories. Perfect for home cooking enthusiasts.",
+      "price": 199,
+      "originalPrice": 249,
+      "discount": 20,
+      "rating": 4.7,
+      "stock": 20,
+      "tags": ["Non-stick", "Professional", "Complete Set"]
+    },
+    {
+      "id": 7,
+      "title": "Hydrating Face Serum",
+      "image": "https://images.pexels.com/photos/3685538/pexels-photo-3685538.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/3685538/pexels-photo-3685538.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Skincare",
+      "brand": "Pure Beauty",
+      "detail": "Advanced hydrating serum with hyaluronic acid and vitamin C. Provides deep moisturization and anti-aging benefits.",
+      "price": 89,
+      "originalPrice": 119,
+      "discount": 25,
+      "rating": 4.8,
+      "stock": 40,
+      "tags": ["Anti-aging", "Hydrating", "Vitamin C"]
+    },
+    {
+      "id": 8,
+      "title": "Nourishing Hair Oil",
+      "image": "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Haircare",
+      "brand": "Natural Locks",
+      "detail": "Organic hair oil blend with argan, coconut, and jojoba oils. Promotes healthy hair growth and adds natural shine.",
+      "price": 39,
+      "originalPrice": 49,
+      "discount": 20,
+      "rating": 4.4,
+      "stock": 55,
+      "tags": ["Organic", "Nourishing", "Natural"]
+    },
+    {
+      "id": 9,
+      "title": "Multivitamin Complex",
+      "image": "https://images.pexels.com/photos/5910955/pexels-photo-5910955.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/5910955/pexels-photo-5910955.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Health & Wellness",
+      "brand": "Vitality Plus",
+      "detail": "Complete multivitamin complex with essential vitamins and minerals. Supports overall health and immune system.",
+      "price": 29,
+      "originalPrice": 39,
+      "discount": 26,
+      "rating": 4.6,
+      "stock": 100,
+      "tags": ["Multivitamin", "Health", "Immunity"]
+    },
+    {
+      "id": 10,
+      "title": "Yoga Mat Premium",
+      "image": "https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Sports",
+      "brand": "Fitness Pro",
+      "detail": "High-quality yoga mat with excellent grip and cushioning. Perfect for yoga, pilates, and general fitness exercises.",
+      "price": 79,
+      "originalPrice": 99,
+      "discount": 20,
+      "rating": 4.7,
+      "stock": 30,
+      "tags": ["Yoga", "Fitness", "Non-slip"]
+    },
+    {
+      "id": 11,
+      "title": "Self-Help Book Collection",
+      "image": "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Books",
+      "brand": "Wisdom Press",
+      "detail": "Collection of bestselling self-help books covering personal development, productivity, and success strategies.",
+      "price": 59,
+      "originalPrice": 89,
+      "discount": 34,
+      "rating": 4.5,
+      "stock": 45,
+      "tags": ["Self-help", "Personal Development", "Success"]
+    },
+    {
+      "id": 12,
+      "title": "Samsung Galaxy S23",
+      "image": "https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Mobile Phones",
+      "brand": "Samsung",
+      "detail": "Samsung Galaxy S23 with advanced camera system, powerful processor, and stunning display technology.",
+      "price": 899,
+      "originalPrice": 999,
+      "discount": 10,
+      "rating": 4.6,
+      "stock": 35,
+      "tags": ["Android", "5G", "Photography"]
+    }
+  ]
+}
