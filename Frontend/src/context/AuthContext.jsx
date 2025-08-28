@@ -29,7 +29,7 @@ export const AuthProvider = ({ children }) => {
   const login = async (email, password) => {
     try {
       const response = await axios.post(
-        'http://localhost:5000/api/auth/login',
+        'https://vermax.onrender.com/api/auth/login',
         { email, password },
         { withCredentials: true }
       );
@@ -55,7 +55,7 @@ export const AuthProvider = ({ children }) => {
 
   const signup = async (username, email, password) => {
     try {
-      await axios.post('http://localhost:5000/api/auth/signup', {
+      await axios.post('https://vermax.onrender.com/api/auth/signup', {
         username,
         email,
         password
@@ -98,42 +98,4 @@ export const useAuth = () => {
   }
   return context;
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
