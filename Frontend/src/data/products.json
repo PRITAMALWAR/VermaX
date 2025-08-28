@@ -1,0 +1,906 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone 14 Pro",
+      "image": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Mobile Phones",
+      "brand": "Apple",
+      "detail": "Apple iPhone 14 Pro with A16 Bionic chip, 48MP camera system, and Dynamic Island. Features Pro camera system with 48MP main camera.",
+      "price": 1199,
+      "originalPrice": 1299,
+      "discount": 8,
+      "rating": 4.8,
+      "stock": 25,
+      "tags": [
+        "5G",
+        "iOS",
+        "Premium"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Samsung Galaxy S23 Ultra",
+      "image": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Mobile Phones",
+      "brand": "Samsung",
+      "detail": "Samsung Galaxy S23 Ultra with Snapdragon 8 Gen 2, 200MP camera, 6.8-inch AMOLED display, and S-Pen support.",
+      "price": 1099,
+      "originalPrice": 1199,
+      "discount": 8,
+      "rating": 4.7,
+      "stock": 40,
+      "tags": [
+        "Android",
+        "5G",
+        "Flagship"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Google Pixel 8 Pro",
+      "image": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Mobile Phones",
+      "brand": "Google",
+      "detail": "Google Pixel 8 Pro powered by Google Tensor G3 chip, with advanced AI photography and clean Android experience.",
+      "price": 899,
+      "originalPrice": 999,
+      "discount": 10,
+      "rating": 4.6,
+      "stock": 35,
+      "tags": [
+        "Android",
+        "AI",
+        "Camera"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "OnePlus 12",
+      "image": "https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Mobile Phones",
+      "brand": "OnePlus",
+      "detail": "OnePlus 12 with Snapdragon 8 Gen 2, 120Hz AMOLED display, Hasselblad camera tuning, and fast charging support.",
+      "price": 799,
+      "originalPrice": 899,
+      "discount": 11,
+      "rating": 4.5,
+      "stock": 50,
+      "tags": [
+        "Android",
+        "Fast Charging",
+        "Flagship"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Xiaomi 13 Pro",
+      "image": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Mobile Phones",
+      "brand": "Xiaomi",
+      "detail": "Xiaomi 13 Pro featuring Leica camera system, Snapdragon 8 Gen 2, and 120W HyperCharge technology.",
+      "price": 699,
+      "originalPrice": 799,
+      "discount": 12,
+      "rating": 4.4,
+      "stock": 60,
+      "tags": [
+        "Android",
+        "Leica",
+        "Performance"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "MacBook Pro 16\"",
+      "image": "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Laptops",
+      "brand": "Apple",
+      "detail": "MacBook Pro 16-inch with M2 Pro chip delivers exceptional performance and battery life. Perfect for professionals and creatives.",
+      "price": 2499,
+      "originalPrice": 2699,
+      "discount": 7,
+      "rating": 4.9,
+      "stock": 15,
+      "tags": [
+        "M2 Pro",
+        "Retina",
+        "Professional"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Dell XPS 15",
+      "image": "https://rukminim2.flixcart.com/image/704/844/xif0q/computer/i/7/r/latitude-3420-business-laptop-dell-original-imagn6hrwnczrmzv.jpeg?q=90&crop=false",
+      "images": [
+        "https://rukminim2.flixcart.com/image/704/844/xif0q/computer/i/7/r/latitude-3420-business-laptop-dell-original-imagn6hrwnczrmzv.jpeg?q=90&crop=false",
+        "https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Laptops",
+      "brand": "Dell",
+      "detail": "Dell XPS 15 with Intel Core i9, NVIDIA RTX 4060, and 4K OLED display. Combines power and elegance in a premium design.",
+      "price": 2199,
+      "originalPrice": 2399,
+      "discount": 8,
+      "rating": 4.7,
+      "stock": 20,
+      "tags": [
+        "Intel",
+        "OLED",
+        "Creator"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "HP Spectre x360 14",
+      "image": "https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Laptops",
+      "brand": "HP",
+      "detail": "HP Spectre x360 14 with Intel Evo platform, 3:2 OLED touchscreen, and 2-in-1 flexibility. Designed for productivity and style.",
+      "price": 1599,
+      "originalPrice": 1699,
+      "discount": 6,
+      "rating": 4.6,
+      "stock": 30,
+      "tags": [
+        "2-in-1",
+        "Touchscreen",
+        "Intel Evo"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "ASUS ROG Zephyrus M16",
+      "image": "https://images.pexels.com/photos/256658/pexels-photo-256658.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/256658/pexels-photo-256658.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/159220/laptop-dell-notebook-computer-159220.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Laptops",
+      "brand": "ASUS",
+      "detail": "ASUS ROG Zephyrus M16 with Intel Core i9, RTX 4080 GPU, and QHD+ 165Hz display. Built for gaming and content creation.",
+      "price": 2299,
+      "originalPrice": 2499,
+      "discount": 8,
+      "rating": 4.8,
+      "stock": 18,
+      "tags": [
+        "Gaming",
+        "RTX 4080",
+        "High Refresh Rate"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Lenovo ThinkPad X1 Carbon Gen 11",
+      "image": "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Laptops",
+      "brand": "Lenovo",
+      "detail": "Lenovo ThinkPad X1 Carbon Gen 11 with Intel Core Ultra, lightweight carbon-fiber body, and enterprise-grade security features.",
+      "price": 1799,
+      "originalPrice": 1999,
+      "discount": 10,
+      "rating": 4.7,
+      "stock": 22,
+      "tags": [
+        "Business",
+        "UltraLight",
+        "Security"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Men's Denim Jacket",
+      "image": "https://m.media-amazon.com/images/I/71aecBuECWL._UY1100_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71aecBuECWL._UY1100_.jpg",
+        "https://images.pexels.com/photos/936117/pexels-photo-936117.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Men's Clothing",
+      "brand": "Denim Co.",
+      "detail": "Classic blue denim jacket with button closure and durable stitching. Ideal for layering in all seasons.",
+      "price": 79,
+      "originalPrice": 99,
+      "discount": 20,
+      "rating": 4.5,
+      "stock": 35,
+      "tags": [
+        "Denim",
+        "Layered",
+        "Durable"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Men's Slim Fit Chinos",
+      "image": "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/2420686/pexels-photo-2420686.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Men's Clothing",
+      "brand": "Modern Fit",
+      "detail": "Stretchable slim fit chinos made from premium cotton blend fabric. Suitable for both casual and semi-formal looks.",
+      "price": 59,
+      "originalPrice": 79,
+      "discount": 25,
+      "rating": 4.2,
+      "stock": 60,
+      "tags": [
+        "Chinos",
+        "Stretch",
+        "Slim Fit"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Men's Graphic T-Shirt",
+      "image": "https://images.pexels.com/photos/1701204/pexels-photo-1701204.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/1701204/pexels-photo-1701204.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Men's Clothing",
+      "brand": "StreetWear Co.",
+      "detail": "100% cotton graphic tee with modern print. Lightweight, breathable and ideal for casual outings.",
+      "price": 29,
+      "originalPrice": 39,
+      "discount": 26,
+      "rating": 4.1,
+      "stock": 75,
+      "tags": [
+        "T-Shirt",
+        "Graphic",
+        "Casual"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Men's Formal Blazer",
+      "image": "https://santellifestyle.com/wp-content/uploads/2023/07/Men-Blue-Slim-Fit-Check-Formal-Blazer.png",
+      "images": [
+        "https://santellifestyle.com/wp-content/uploads/2023/07/Men-Blue-Slim-Fit-Check-Formal-Blazer.png",
+        "https://m.media-amazon.com/images/I/81paAo+A9RL._UY1100_.jpg"
+      ],
+      "category": "Men's Clothing",
+      "brand": "TailorCraft",
+      "detail": "Elegant formal blazer with fine wool blend and slim cut. Perfect for business and special occasions.",
+      "price": 149,
+      "originalPrice": 199,
+      "discount": 25,
+      "rating": 4.6,
+      "stock": 20,
+      "tags": [
+        "Formal",
+        "Wool Blend",
+        "Slim Fit"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Men's Hooded Sweatshirt",
+      "image": "https://m.media-amazon.com/images/I/619wXLQyVjL._SY350_QL65_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/619wXLQyVjL._SY350_QL65_.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMI9DLOVhesDLrFH81VI7yLF7TLfu-ZtuzzA&s"
+      ],
+      "category": "Men's Clothing",
+      "brand": "CozyWear",
+      "detail": "Comfortable fleece-lined hoodie with adjustable drawstrings and kangaroo pocket. Ideal for casual and active wear.",
+      "price": 55,
+      "originalPrice": 69,
+      "discount": 20,
+      "rating": 4.4,
+      "stock": 45,
+      "tags": [
+        "Hoodie",
+        "Fleece",
+        "Warm"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Women's Summer Dress",
+      "image": "https://m.media-amazon.com/images/I/81ZR+jA48VL._UY1100_.jpg",
+      "images": [
+        "https://images.pexels.com/photos/1021693/pexels-photo-1021693.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://m.media-amazon.com/images/I/81ZR+jA48VL._UY1100_.jpg"
+      ],
+      "category": "Women's Clothing",
+      "brand": "Elegant Wear",
+      "detail": "Beautiful summer dress made from breathable fabric. Elegant design perfect for casual and semi-formal occasions.",
+      "price": 79,
+      "originalPrice": 99,
+      "discount": 20,
+      "rating": 4.6,
+      "stock": 35,
+      "tags": [
+        "Summer",
+        "Elegant",
+        "Breathable"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Women's High-Waist Jeans",
+      "image": "https://images.pexels.com/photos/1374916/pexels-photo-1374916.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/1374916/pexels-photo-1374916.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/767972/pexels-photo-767972.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Women's Clothing",
+      "brand": "Urban Denim",
+      "detail": "Stylish high-waist skinny jeans with stretch fit. Made from premium denim for all-day comfort and flexibility.",
+      "price": 69,
+      "originalPrice": 89,
+      "discount": 22,
+      "rating": 4.5,
+      "stock": 45,
+      "tags": [
+        "Denim",
+        "High-Waist",
+        "Stretch"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Women's Floral Blouse",
+      "image": "https://m.media-amazon.com/images/I/410rCexa14L._UY1100_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/410rCexa14L._UY1100_.jpg",
+        "https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Women's Clothing",
+      "brand": "FloraStyle",
+      "detail": "Soft and lightweight floral blouse, ideal for warm days. Loose fit with ruffle sleeves for added charm.",
+      "price": 49,
+      "originalPrice": 65,
+      "discount": 25,
+      "rating": 4.4,
+      "stock": 55,
+      "tags": [
+        "Floral",
+        "Blouse",
+        "Lightweight"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Women's Workout Leggings",
+      "image": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/training_ss24_ppc_iwp_leggings_yoga_tile_d_a8456e7a30.jpg",
+      "images": [
+        "https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/training_ss24_ppc_iwp_leggings_yoga_tile_d_a8456e7a30.jpg",
+        "https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/training_fw24_ppc_global_launch_pdp_story_tab_leggings_all_me_faq_d_f6bd950d18.jpg"
+      ],
+      "category": "Women's Clothing",
+      "brand": "FitFlex",
+      "detail": "High-performance leggings with moisture-wicking fabric and supportive fit. Ideal for gym, yoga, and everyday wear.",
+      "price": 59,
+      "originalPrice": 79,
+      "discount": 25,
+      "rating": 4.7,
+      "stock": 40,
+      "tags": [
+        "Workout",
+        "Leggings",
+        "Stretchable"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Women's Woolen Cardigan",
+      "image": "https://m.media-amazon.com/images/I/91Th92oWTUL._UY1100_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/91Th92oWTUL._UY1100_.jpg",
+        "https://m.media-amazon.com/images/I/51aLHbAedZL._UY1100_.jpg"
+      ],
+      "category": "Women's Clothing",
+      "brand": "CozyKnits",
+      "detail": "Warm wool-blend cardigan with open front and side pockets. Great for layering in chilly weather.",
+      "price": 89,
+      "originalPrice": 109,
+      "discount": 18,
+      "rating": 4.5,
+      "stock": 28,
+      "tags": [
+        "Wool",
+        "Cardigan",
+        "Winter"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Baby Onesie Pack (3 pcs)",
+      "image": "https://images.pexels.com/photos/1001914/pexels-photo-1001914.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/1001914/pexels-photo-1001914.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Kids & Baby Clothing",
+      "brand": "Tiny Togs",
+      "detail": "Pack of 3 soft cotton baby onesies with snap closures. Breathable, gentle on skin, and easy to wear.",
+      "price": 35,
+      "originalPrice": 45,
+      "discount": 22,
+      "rating": 4.7,
+      "stock": 75,
+      "tags": [
+        "Baby",
+        "Onesie",
+        "Cotton"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Kids Winter Hoodie",
+      "image": "https://images.pexels.com/photos/1648375/pexels-photo-1648375.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/1648375/pexels-photo-1648375.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Kids & Baby Clothing",
+      "brand": "Warm & Co.",
+      "detail": "Cozy fleece-lined hoodie for kids, perfect for winter. Features a zip front, front pockets, and fun colors.",
+      "price": 39,
+      "originalPrice": 55,
+      "discount": 29,
+      "rating": 4.6,
+      "stock": 50,
+      "tags": [
+        "Winter",
+        "Hoodie",
+        "Warm"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Girls Party Dress",
+      "image": "https://images.pexels.com/photos/459976/pexels-photo-459976.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/459976/pexels-photo-459976.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Kids & Baby Clothing",
+      "brand": "TwinkleWear",
+      "detail": "Elegant party dress for girls with floral lace design and satin bow. Ideal for birthdays and special occasions.",
+      "price": 55,
+      "originalPrice": 70,
+      "discount": 21,
+      "rating": 4.8,
+      "stock": 40,
+      "tags": [
+        "Party",
+        "Dress",
+        "Girls"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Non-Stick Cookware Set",
+      "image": "https://images.pexels.com/photos/4552174/pexels-photo-4552174.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/4552174/pexels-photo-4552174.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Home & Kitchen",
+      "brand": "Chef's Choice",
+      "detail": "Professional-grade non-stick cookware set including pans, pots, and accessories. Perfect for home cooking enthusiasts.",
+      "price": 199,
+      "originalPrice": 249,
+      "discount": 20,
+      "rating": 4.7,
+      "stock": 20,
+      "tags": [
+        "Non-stick",
+        "Professional",
+        "Complete Set"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Hydrating Face Serum",
+      "image": "https://images.pexels.com/photos/3685538/pexels-photo-3685538.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/3685538/pexels-photo-3685538.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Skincare",
+      "brand": "Pure Beauty",
+      "detail": "Advanced hydrating serum with hyaluronic acid and vitamin C. Provides deep moisturization and anti-aging benefits.",
+      "price": 89,
+      "originalPrice": 119,
+      "discount": 25,
+      "rating": 4.8,
+      "stock": 40,
+      "tags": [
+        "Anti-aging",
+        "Hydrating",
+        "Vitamin C"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Soothing Night Cream",
+      "image": "https://images.pexels.com/photos/4275888/pexels-photo-4275888.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/4275888/pexels-photo-4275888.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Skincare",
+      "brand": "Glow Naturals",
+      "detail": "Rich, nourishing night cream with chamomile and aloe vera. Helps calm skin overnight and restore moisture balance.",
+      "price": 52,
+      "originalPrice": 69,
+      "discount": 25,
+      "rating": 4.6,
+      "stock": 35,
+      "tags": [
+        "Night Care",
+        "Soothing",
+        "Aloe Vera"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Purifying Clay Mask",
+      "image": "https://images.pexels.com/photos/6621462/pexels-photo-6621462.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/6621462/pexels-photo-6621462.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Skincare",
+      "brand": "EarthBlend",
+      "detail": "Detoxifying clay mask enriched with bentonite clay and green tea extract. Deep cleanses pores and reduces oil.",
+      "price": 38,
+      "originalPrice": 49,
+      "discount": 22,
+      "rating": 4.5,
+      "stock": 50,
+      "tags": [
+        "Clay Mask",
+        "Detox",
+        "Pore Cleanse"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Nourishing Hair Oil",
+      "image": "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Haircare",
+      "brand": "Natural Locks",
+      "detail": "Organic hair oil blend with argan, coconut, and jojoba oils. Promotes healthy hair growth and adds natural shine.",
+      "price": 39,
+      "originalPrice": 49,
+      "discount": 20,
+      "rating": 4.4,
+      "stock": 55,
+      "tags": [
+        "Organic",
+        "Nourishing",
+        "Natural"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Volumizing Herbal Shampoo",
+      "image": "https://images.pexels.com/photos/3736387/pexels-photo-3736387.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/3736387/pexels-photo-3736387.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Haircare",
+      "brand": "Herbal Essence",
+      "detail": "Gentle shampoo infused with ginseng and biotin. Cleanses scalp while adding volume and strength to thinning hair.",
+      "price": 29,
+      "originalPrice": 39,
+      "discount": 26,
+      "rating": 4.5,
+      "stock": 70,
+      "tags": [
+        "Volumizing",
+        "Herbal",
+        "Biotin"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Repair & Shine Hair Mask",
+      "image": "https://images.pexels.com/photos/3736394/pexels-photo-3736394.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/3736394/pexels-photo-3736394.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Haircare",
+      "brand": "Glow Roots",
+      "detail": "Deep conditioning mask enriched with keratin and shea butter. Repairs damaged hair and restores softness and shine.",
+      "price": 45,
+      "originalPrice": 59,
+      "discount": 24,
+      "rating": 4.6,
+      "stock": 40,
+      "tags": [
+        "Repair",
+        "Shine",
+        "Conditioning"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Multivitamin Complex",
+      "image": "https://images.pexels.com/photos/5910955/pexels-photo-5910955.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/5910955/pexels-photo-5910955.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Health & Wellness",
+      "brand": "Vitality Plus",
+      "detail": "Complete multivitamin complex with essential vitamins and minerals. Supports overall health and immune system.",
+      "price": 29,
+      "originalPrice": 39,
+      "discount": 26,
+      "rating": 4.6,
+      "stock": 100,
+      "tags": [
+        "Multivitamin",
+        "Health",
+        "Immunity"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Omega-3 Fish Oil",
+      "image": "https://images.pexels.com/photos/4040576/pexels-photo-4040576.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/4040576/pexels-photo-4040576.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Health & Wellness",
+      "brand": "Pure Heart",
+      "detail": "High-potency omega-3 softgels with EPA and DHA for heart, brain, and joint health. Sustainably sourced fish oil.",
+      "price": 35,
+      "originalPrice": 45,
+      "discount": 22,
+      "rating": 4.7,
+      "stock": 80,
+      "tags": [
+        "Omega-3",
+        "Heart Health",
+        "Brain Support"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Probiotic 40 Billion CFU",
+      "image": "https://images.pexels.com/photos/4040579/pexels-photo-4040579.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/4040579/pexels-photo-4040579.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Health & Wellness",
+      "brand": "GutCare",
+      "detail": "Advanced probiotic formula with 40 billion CFU and 4 strains. Supports digestive balance and gut health.",
+      "price": 32,
+      "originalPrice": 42,
+      "discount": 24,
+      "rating": 4.5,
+      "stock": 90,
+      "tags": [
+        "Probiotic",
+        "Gut Health",
+        "Digestive Support"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Yoga Mat Premium",
+      "image": "https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Sports",
+      "brand": "Fitness Pro",
+      "detail": "High-quality yoga mat with excellent grip and cushioning. Perfect for yoga, pilates, and general fitness exercises.",
+      "price": 79,
+      "originalPrice": 99,
+      "discount": 20,
+      "rating": 4.7,
+      "stock": 30,
+      "tags": [
+        "Yoga",
+        "Fitness",
+        "Non-slip"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Adjustable Dumbbell Set",
+      "image": "https://images.pexels.com/photos/1552107/pexels-photo-1552107.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/1552107/pexels-photo-1552107.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Sports",
+      "brand": "IronFlex",
+      "detail": "Adjustable dumbbell pair with quick lock system. Suitable for home strength training with weight range from 5 to 50 lbs.",
+      "price": 249,
+      "originalPrice": 299,
+      "discount": 17,
+      "rating": 4.8,
+      "stock": 20,
+      "tags": [
+        "Strength",
+        "Adjustable",
+        "Home Gym"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Resistance Band Set",
+      "image": "https://images.pexels.com/photos/4397838/pexels-photo-4397838.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/4397838/pexels-photo-4397838.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Sports",
+      "brand": "FlexBand",
+      "detail": "Set of 5 resistance bands with varying strength levels. Ideal for strength training, stretching, and rehabilitation exercises.",
+      "price": 35,
+      "originalPrice": 45,
+      "discount": 22,
+      "rating": 4.5,
+      "stock": 50,
+      "tags": [
+        "Resistance",
+        "Portable",
+        "Strength"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Treadmill Pro X100",
+      "image": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Sports",
+      "brand": "RunTech",
+      "detail": "High-performance treadmill with LED display, incline control, and built-in heart rate sensors. Great for home cardio workouts.",
+      "price": 899,
+      "originalPrice": 1099,
+      "discount": 18,
+      "rating": 4.6,
+      "stock": 10,
+      "tags": [
+        "Cardio",
+        "Running",
+        "Home Gym"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Modern Fiction Bundle",
+      "image": "https://images.pexels.com/photos/356807/pexels-photo-356807.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/356807/pexels-photo-356807.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Books",
+      "brand": "Story House",
+      "detail": "A curated bundle of bestselling modern fiction novels across genres like drama, romance, and mystery.",
+      "price": 49,
+      "originalPrice": 75,
+      "discount": 35,
+      "rating": 4.4,
+      "stock": 60,
+      "tags": [
+        "Fiction",
+        "Novels",
+        "Bestsellers"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Children's Learning Books Set",
+      "image": "https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Books",
+      "brand": "Bright Minds",
+      "detail": "Fun and educational books for children aged 4–8. Includes alphabet, numbers, colors, and basic science.",
+      "price": 39,
+      "originalPrice": 55,
+      "discount": 29,
+      "rating": 4.7,
+      "stock": 80,
+      "tags": [
+        "Children",
+        "Learning",
+        "Education"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Cookbook Collection: Global Cuisines",
+      "image": "https://images.pexels.com/photos/3769996/pexels-photo-3769996.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/3769996/pexels-photo-3769996.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Books",
+      "brand": "Flavor Pages",
+      "detail": "Discover world flavors with this collection of cookbooks covering Italian, Indian, Thai, and French cuisines.",
+      "price": 69,
+      "originalPrice": 95,
+      "discount": 27,
+      "rating": 4.6,
+      "stock": 35,
+      "tags": [
+        "Cookbook",
+        "Cuisine",
+        "Recipes"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Science Explained: Illustrated Guide",
+      "image": "https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Books",
+      "brand": "Mind Bloom",
+      "detail": "Visually engaging book that breaks down complex science concepts into fun, easy-to-understand explanations.",
+      "price": 44,
+      "originalPrice": 60,
+      "discount": 27,
+      "rating": 4.8,
+      "stock": 40,
+      "tags": [
+        "Science",
+        "Educational",
+        "Illustrated"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Samsung Galaxy S23",
+      "image": "https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "images": [
+        "https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "category": "Mobile Phones",
+      "brand": "Samsung",
+      "detail": "Samsung Galaxy S23 with advanced camera system, powerful processor, and stunning display technology.",
+      "price": 899,
+      "originalPrice": 999,
+      "discount": 10,
+      "rating": 4.6,
+      "stock": 35,
+      "tags": [
+        "Android",
+        "5G",
+        "Photography"
+      ]
+    }
+  ]
+}
