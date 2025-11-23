@@ -2,10 +2,10 @@
   command = "npm run build"
   publish = "dist"
 
-# Redirect all routes to home page on refresh
+# SPA fallback - serve index.html for all routes (fixes 404 on refresh)
 [[redirects]]
   from = "/*"
-  to = "/"
-  status = 301
+  to = "/index.html"
+  status = 200
   force = true
 
