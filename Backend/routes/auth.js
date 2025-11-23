@@ -103,15 +103,48 @@ const JWT_SECRET = process.env.JWT_SECRET || 'fallback_secret';
 // SIGNUP
 router.post('/signup', async (req, res) => {
   const { username, email, password, role } = req.body;
-  try {
-    const existingUser = await User.findOne({ email });
-    if (existingUser) return res.status(400).json({ message: 'User already exists' });
+  
+  // Validate required fields
+  if (!username || !email || !password) {
+    return res.status(400).json({ message: 'Username, email, and password are required' });
+  }
 
+  // Validate email format
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(email)) {
+    return res.status(400).json({ message: 'Invalid email format' });
+  }
+
+  // Validate password length
+  if (password.length < 6) {
+    return res.status(400).json({ message: 'Password must be at least 6 characters long' });
+  }
+
+  // Validate username length
+  if (username.trim().length < 3) {
+    return res.status(400).json({ message: 'Username must be at least 3 characters long' });
+  }
+
+  try {
+    // Check if user already exists (case-insensitive email check)
+    const existingUser = await User.findOne({ email: email.trim().toLowerCase() });
+    if (existingUser) {
+      return res.status(400).json({ message: 'User already exists with this email' });
+    }
+
+    // Check if username already exists
+    const existingUsername = await User.findOne({ username: username.trim() });
+    if (existingUsername) {
+      return res.status(400).json({ message: 'Username already taken' });
+    }
+
+    // Hash password
     const hashedPassword = await bcrypt.hash(password, 10);
 
+    // Create new user
     const newUser = new User({
-      username,
-      email,
+      username: username.trim(),
+      email: email.trim().toLowerCase(),
       password: hashedPassword,
       role: role || 'user'
     });
@@ -120,7 +153,20 @@ router.post('/signup', async (req, res) => {
     res.status(201).json({ message: 'User registered successfully' });
 
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    // Handle duplicate key errors (if unique constraint fails)
+    if (err.code === 11000) {
+      const field = Object.keys(err.keyPattern)[0];
+      return res.status(400).json({ message: `${field} already exists` });
+    }
+    
+    // Handle validation errors
+    if (err.name === 'ValidationError') {
+      const messages = Object.values(err.errors).map(e => e.message);
+      return res.status(400).json({ message: messages.join(', ') });
+    }
+
+    console.error('Signup error:', err);
+    res.status(500).json({ error: 'Server error during signup' });
   }
 });
 
