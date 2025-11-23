@@ -36,10 +36,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 
 // MongoDB Connection
-mongoose.connect(MONGO_URI || 'mongodb://localhost:27017/authdbms', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-})
+mongoose.connect(MONGO_URI || 'mongodb://localhost:27017/authdbms')
 .then(() => console.log('MongoDB connected'))
 .catch(err => console.log('MongoDB connection error:', err));
 
