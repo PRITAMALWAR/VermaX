@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Star, ShoppingCart, Heart, ArrowLeft, Plus, Minus } from "lucide-react";
 import { useCart } from "../../context/CartContext";
+import { useAuth } from "../../context/AuthContext";
 import productsData from "../../data/products.json";
 import Loader from "../Common/Loader";
 import toast from "react-hot-toast";
@@ -11,6 +12,7 @@ const ProductDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const { addToCart } = useCart();
+  const { isLoggedIn } = useAuth();
   const [product, setProduct] = useState(null);
   const [selectedImage, setSelectedImage] = useState("");
   const [quantity, setQuantity] = useState(1);
@@ -48,6 +50,11 @@ const ProductDetails = () => {
   }
 
   const handleAddToCart = () => {
+    if (!isLoggedIn) {
+      toast.error("Please login to add items to cart");
+      navigate("/login");
+      return;
+    }
     for (let i = 0; i < quantity; i++) {
       addToCart(product);
     }

@@ -2,14 +2,22 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Star, Heart, ShoppingCart } from "lucide-react";
 import { useCart } from "../../context/CartContext";
+import { useAuth } from "../../context/AuthContext";
 import { useNavigate } from "react-router-dom";
+import toast from "react-hot-toast";
 
 const ProductCard = ({ product }) => {
   const { addToCart } = useCart();
+  const { isLoggedIn } = useAuth();
   const navigate = useNavigate();
 
   const handleAddToCart = (e) => {
     e.stopPropagation();
+    if (!isLoggedIn) {
+      toast.error("Please login to add items to cart");
+      navigate("/login");
+      return;
+    }
     addToCart(product);
   };
 

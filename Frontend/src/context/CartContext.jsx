@@ -1,5 +1,6 @@
-import React, { createContext, useContext, useReducer, useEffect } from 'react';
+import React, { createContext, useContext, useReducer, useEffect, useState } from 'react';
 import toast from 'react-hot-toast';
+import { useAuth } from './AuthContext';
 
 const CartContext = createContext(undefined);
 
@@ -67,6 +68,8 @@ const cartReducer = (state, action) => {
 
 export const CartProvider = ({ children }) => {
   const [state, dispatch] = useReducer(cartReducer, initialState);
+  const { isLoggedIn, loading } = useAuth();
+  const [hasLoaded, setHasLoaded] = useState(false);
 
   useEffect(() => {
     const savedCart = localStorage.getItem('cart');
@@ -78,15 +81,29 @@ export const CartProvider = ({ children }) => {
         console.error('Error loading cart from localStorage:', error);
       }
     }
+    setHasLoaded(true);
   }, []);
 
   useEffect(() => {
     localStorage.setItem('cart', JSON.stringify(state));
   }, [state]);
 
+  // Clear cart when user logs out (only after initial load is complete)
+  useEffect(() => {
+    if (hasLoaded && !loading && !isLoggedIn && state.items.length > 0) {
+      dispatch({ type: 'CLEAR_CART' });
+      localStorage.removeItem('cart');
+    }
+  }, [isLoggedIn, loading, hasLoaded]);
+
   const addToCart = (product) => {
+    if (!isLoggedIn) {
+      toast.error('Please login to add items to cart');
+      return false;
+    }
     dispatch({ type: 'ADD_TO_CART', payload: product });
     toast.success('Product added to cart!');
+    return true;
   };
 
   const removeFromCart = (id) => {
