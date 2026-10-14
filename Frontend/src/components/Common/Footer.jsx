@@ -1,108 +1,167 @@
+
 import React from "react";
 import { Link } from "react-router-dom";
-import { Facebook, Instagram, Twitter, Mail, Phone, MapPin } from "lucide-react";
+import {
+  ShoppingBag,
+  Facebook,
+  Instagram,
+  Twitter,
+  Mail,
+  Phone,
+  MapPin,
+} from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-br from-purple-600 via-blue-600 to-indigo-700 text-white py-12 mt-16">
-      <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          {/* Company Info */}
+    <footer className="bg-white text-black">
+      <div className="mx-auto max-w-7xl px-6 py-12 sm:px-8 lg:px-10">
+        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-12">
+
+          {/* Brand */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-yellow-300">VermaX</h3>
-            <p className="text-white mb-4">
-              Your one-stop destination for quality products at unbeatable prices.
-              Shop with confidence and convenience.
+            <Link to="/" className="inline-flex items-center gap-3">
+              <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-black text-white">
+                <ShoppingBag size={21} />
+              </span>
+
+              <span className="text-2xl font-bold tracking-tight">
+                VermaX
+              </span>
+            </Link>
+
+            <p className="mt-5 max-w-xs text-sm leading-7 text-gray-600">
+              Discover products for your everyday needs. We make it
+              easier to explore, find your favorites, and enjoy a simple
+              shopping experience.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="hover:text-yellow-300 transition-colors">
-                <Facebook className="w-5 h-5" />
+
+            <div className="mt-6 flex gap-3">
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Facebook"
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-gray-200 text-gray-600 transition hover:border-black hover:text-black"
+              >
+                <Facebook size={18} />
               </a>
-              <a href="#" className="hover:text-yellow-300 transition-colors">
-                <Instagram className="w-5 h-5" />
+
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Instagram"
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-gray-200 text-gray-600 transition hover:border-black hover:text-black"
+              >
+                <Instagram size={18} />
               </a>
-              <a href="#" className="hover:text-yellow-300 transition-colors">
-                <Twitter className="w-5 h-5" />
+
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Twitter"
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-gray-200 text-gray-600 transition hover:border-black hover:text-black"
+              >
+                <Twitter size={18} />
               </a>
             </div>
           </div>
 
-          {/* Quick Links */}
+          {/* Explore */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-white">Quick Links</h3>
-            <ul className="space-y-2">
+            <h3 className="text-sm font-bold uppercase tracking-wide">
+              Explore
+            </h3>
+
+            <ul className="mt-6 space-y-4">
               <li>
-                <Link to="/" className="hover:text-yellow-300 transition-colors">Home</Link>
+                <Link to="/" className="text-sm text-gray-600 hover:text-black">
+                  Home
+                </Link>
               </li>
               <li>
-                <Link to="/products" className="hover:text-yellow-300 transition-colors">Products</Link>
+                <Link to="/products" className="text-sm text-gray-600 hover:text-black">
+                  All Products
+                </Link>
               </li>
               <li>
-                <Link to="/about" className="hover:text-yellow-300 transition-colors">About Us</Link>
+                <Link to="/about" className="text-sm text-gray-600 hover:text-black">
+                  About Us
+                </Link>
               </li>
               <li>
-                <Link to="/contact" className="hover:text-yellow-300 transition-colors">Contact</Link>
+                <Link to="/contact" className="text-sm text-gray-600 hover:text-black">
+                  Contact Us
+                </Link>
               </li>
             </ul>
           </div>
 
-          {/* Customer Service */}
+          {/* Customer Care */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-white">Customer Service</h3>
-            <ul className="space-y-2">
+            <h3 className="text-sm font-bold uppercase tracking-wide">
+              Customer Care
+            </h3>
+
+            <ul className="mt-6 space-y-4">
               <li>
-                <Link to="/returns" className="hover:text-yellow-300 transition-colors">Returns & Refunds</Link>
+                <Link to="/returns" className="text-sm text-gray-600 hover:text-black">
+                  Returns &amp; Refunds
+                </Link>
               </li>
               <li>
-                <Link to="/shipping" className="hover:text-yellow-300 transition-colors">Shipping Info</Link>
+                <Link to="/shipping" className="text-sm text-gray-600 hover:text-black">
+                  Shipping Information
+                </Link>
               </li>
               <li>
-                <Link to="/faq" className="hover:text-yellow-300 transition-colors">FAQ</Link>
+                <Link to="/faq" className="text-sm text-gray-600 hover:text-black">
+                  Frequently Asked Questions
+                </Link>
               </li>
               <li>
-                <Link to="/terms" className="hover:text-yellow-300 transition-colors">Terms of Service</Link>
+                <Link to="/terms" className="text-sm text-gray-600 hover:text-black">
+                  Terms of Service
+                </Link>
               </li>
             </ul>
           </div>
 
-          {/* Contact Info */}
+          {/* Contact */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-white">Contact Us</h3>
-            <div className="space-y-3">
-              <div className="flex items-center space-x-3">
-                <Mail className="w-4 h-4 text-yellow-300" />
-                <span className="text-white">support@VermaX.com</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Phone className="w-4 h-4 text-yellow-300" />
-                <span className="text-white">+1 (800) 123-4567</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <MapPin className="w-4 h-4 text-yellow-300" />
-                <span className="text-white">123 Commerce St, City, Country</span>
-              </div>
-            </div>
-          </div>
-        </div>
+            <h3 className="text-sm font-bold uppercase tracking-wide">
+              Get in Touch
+            </h3>
 
-        {/* Bottom Footer */}
-        <div className="mt-8 pt-8 border-t border-white/20">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-white text-sm mb-4 md:mb-0">
-              &copy; 2025 VermaX. All Rights Reserved.
+            <p className="mt-6 text-sm leading-6 text-gray-600">
+              Have a question? Get in touch with us.
             </p>
-            <div className="flex space-x-6">
-              <Link to="/privacy" className="text-white hover:text-yellow-300 text-sm transition-colors">
-                Privacy Policy
-              </Link>
-              <Link to="/terms" className="text-white hover:text-yellow-300 text-sm transition-colors">
-                Terms of Use
-              </Link>
-              <Link to="/cookies" className="text-white hover:text-yellow-300 text-sm transition-colors">
-                Cookie Policy
-              </Link>
+
+            <div className="mt-5 space-y-4">
+              <a
+                href="mailto:support@vermax.com"
+                className="flex items-center gap-3 text-sm text-gray-600 hover:text-black"
+              >
+                <Mail size={18} className="shrink-0 text-black" />
+                <span>support@vermax.com</span>
+              </a>
+
+              <a
+                href="tel:+18001234567"
+                className="flex items-center gap-3 text-sm text-gray-600 hover:text-black"
+              >
+                <Phone size={18} className="shrink-0 text-black" />
+                <span>+1 (800) 123-4567</span>
+              </a>
+
+              <div className="flex items-center gap-3 text-sm text-gray-600">
+                <MapPin size={18} className="shrink-0 text-black" />
+                <span>123 Commerce St, City, Country</span>
+              </div>
             </div>
           </div>
+
         </div>
       </div>
     </footer>
